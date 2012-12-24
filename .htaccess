@@ -1,0 +1,14 @@
+FileETag None
+
+RedirectMatch 404 /\\.git(/|$)
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !/server-status
+RewriteCond %{REQUEST_URI} !/server-info
+RewriteRule . index.php
+
+php_value upload_max_filesize 650M
+php_value post_max_size 651M
+php_value short_open_tag Off

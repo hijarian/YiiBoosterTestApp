@@ -1,0 +1,12 @@
+<?php
+/**
+ * This is a config to help an app to find the core components of system.
+ * Please copy this file with the name `paths` to the same directory
+ *   and write the absolute paths in it.
+ */
+
+/// Path to `framework` directory of Yii framework.
+define('YII_PATH', "");
+
+/// Path to root directory of YiiBooster extension
+define('YII_BOOSTER_PATH', "");
