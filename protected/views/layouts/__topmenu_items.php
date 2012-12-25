@@ -7,6 +7,20 @@
  */
 
 return array(
-	array('label'=>'About', 'url' => array('/site/index')),
-	array('label'=>'CSS classes', 'url' => array('/site/page', 'view'=>'css_classes')),
+	array(
+		'label'=>'About', 
+		'url' => array('/site/index')
+	),
+	array(
+		'label'=>'Buttons', 
+		'url' => '#', 
+		'items' => array(
+			array('label' => 'Normal Buttons', 'url' => array('/buttons/index')),
+			array('label' => 'Button Groups', 'url' => array('/buttons/groups')),
+			array('label' => 'Button Dropdowns', 'url' => array('/buttons/dropdowns')),
+		), 
+		'itemOptions' => array('class' => 'dropdown'), 
+		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'), 
+		'submenuOptions' => array('class' => 'dropdown-menu')
+	),
 );

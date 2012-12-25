@@ -22,11 +22,6 @@
 
 		<?php echo $content; ?>
 
-		<div class="clear"></div>
-
-		<footer>
-			<?php echo Yii::powered(); ?>
-		</footer>
 	</div>
 </body>
 </html>
