@@ -1,0 +1,15 @@
+<?php 
+$this->widget('bootstrap.widgets.TbJsonGridView',array(
+	'id'=>'json-gridview-demo-grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
+		'id',
+		'textfield',
+		'numberfield',
+		'boolfield',
+		array(
+			'class'=>'booster.widgets.TbJsonButtonColumn'
+		),
+	),
+)); 
