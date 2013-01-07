@@ -1,14 +1,14 @@
 <?php
 /**
  * Main application config
- * As a user of app you probably do neither need nor want to change 
+ * As a user of app you probably do neither need nor want to change
  *  anything in here.
- * 
+ *
  * All settings configured here can be overrided in your local config
  *  which should be called 'main-local.php' and placed alongside with this file.
  */
 
-// It is expected that somewhere in the toplevel this constant is defined 
+// It is expected that somewhere in the toplevel this constant is defined
 //  with full path to root directory of YiiBooster
 Yii::setPathOfAlias('booster', YII_BOOSTER_PATH);
 
@@ -25,13 +25,14 @@ Yii::setPathOfAlias('booster', YII_BOOSTER_PATH);
 			'application.models.*',
 			'application.components.*',
 		),
-	
+
 		'modules' => array(
 			'gii' => array(
 				'class' => 'system.gii.GiiModule',
 				'ipFilters'=>array('127.0.0.1','::1'),
 				'generatorPaths' => array(
-					'booster.gii'
+					'booster.gii',
+					'application.gii',
 				),
 			),
 		),
