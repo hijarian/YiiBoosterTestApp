@@ -31,9 +31,9 @@ return array(
 		'label' => 'Html5Editor',
 		'url' => '#',
 		'items' => array(
-			array('label' => 'With colors', 'url' => array('/html5Editor/index')),
-			array('label' => 'Without colors', 'url' => array('/html5Editor/noColors')),
-			array('label' => 'Disable default CSS', 'url' => array('/html5Editor/disableDefaultStylesheet')),
+			array('label' => 'Default settings', 'url' => array('/html5Editor/index')),
+			array('label' => 'With colors', 'url' => array('/html5Editor/withColorsEnabled')),
+			array('label' => 'With colors and custom CSS', 'url' => array('/html5Editor/customCss')),
 		),
 		'itemOptions' => array('class' => 'dropdown'),
 		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
