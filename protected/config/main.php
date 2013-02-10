@@ -63,7 +63,7 @@ Yii::setPathOfAlias('booster', YII_BOOSTER_PATH);
 				'routes' => array(
 					array(
 						'class'=>'CWebLogRoute',
-						'levels' => 'error,warning'
+						'levels' => 'error,warning,info'
 					),
 				),
 			),
