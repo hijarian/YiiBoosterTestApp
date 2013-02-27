@@ -38,5 +38,20 @@ return array(
 		'itemOptions' => array('class' => 'dropdown'),
 		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
 		'submenuOptions' => array('class' => 'dropdown-menu')
+	),
+	array(
+		'label' => 'Alert',
+		'url' => '#',
+		'items' => array(
+			array('label' => 'Default settings', 'url' => array('/alert/index')),
+			array('label' => 'No close button', 'url' => array('/alert/noCloseButton')),
+			array('label' => 'Custom close button text', 'url' => array('/alert/customCloseButtonText')),
+			array('label' => 'No close button for specific message type', 'url' => array('/alert/noCloseButtonOnSuccessMessage')),
+			array('label' => 'Custom close button text for specific message type', 'url' => array('/alert/customCloseButtonTextOnSuccessMessage')),
+		),
+		'itemOptions' => array('class' => 'dropdown'),
+		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
+		'submenuOptions' => array('class' => 'dropdown-menu')
 	)
+
 );
