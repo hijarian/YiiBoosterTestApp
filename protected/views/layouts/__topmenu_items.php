@@ -52,6 +52,17 @@ return array(
 		'itemOptions' => array('class' => 'dropdown'),
 		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
 		'submenuOptions' => array('class' => 'dropdown-menu')
+	),
+	array(
+		'label' => 'DateRangePicker',
+		'url' => '#',
+		'items' => array(
+			array('label' => 'Default settings', 'url' => array('/dateRangePicker/index')),
+			array('label' => 'Explicit CJK month names', 'url' => array('/dateRangePicker/chinese')),
+			array('label' => 'Getting language from application', 'url' => array('/dateRangePicker/language', 'set' => 'es')),
+		),
+		'itemOptions' => array('class' => 'dropdown'),
+		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
+		'submenuOptions' => array('class' => 'dropdown-menu')
 	)
-
 );

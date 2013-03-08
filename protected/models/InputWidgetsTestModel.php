@@ -4,8 +4,9 @@
 */
 class InputWidgetsTestModel extends CFormModel
 {
-	/**
-	 * @var string
-	 */
+	/** @var string */
 	public $dummyStringAttr;
+
+	/** @var string */
+	public $dummyDateRangeAttr;
 }
