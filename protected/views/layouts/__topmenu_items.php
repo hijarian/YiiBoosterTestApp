@@ -64,5 +64,16 @@ return array(
 		'itemOptions' => array('class' => 'dropdown'),
 		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
 		'submenuOptions' => array('class' => 'dropdown-menu')
+	),
+	array(
+		'label' => 'Select2',
+		'url' => '#',
+		'items' => array(
+			array('label' => 'Default settings', 'url' => array('/select2/index')),
+			array('label' => 'Width behavior in form', 'url' => array('/select2/inForm')),
+		),
+		'itemOptions' => array('class' => 'dropdown'),
+		'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown'),
+		'submenuOptions' => array('class' => 'dropdown-menu')
 	)
 );
